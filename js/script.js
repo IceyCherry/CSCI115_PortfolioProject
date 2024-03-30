@@ -1,3 +1,10 @@
+// Kelvin Hua
+// 656578887
+// This document contains the typing animation found on the home page,
+// links to the navigation toggle when resolution is reduced (1199px and below)
+// Sliding the page when switching between pages.
+// Button links: "projects" and "hire me" on Home and About page respectively.
+
 /*====================== Typing animation ======================*/
 var typed = new Typed(".typing", { // Targetting the class "typing" used in my span in home section
   // strings: ["", "Researcher", "Data Analyst", "Web Developer", "Illustrator", "confused individual"],

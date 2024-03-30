@@ -1,3 +1,9 @@
+// Kelvin Hua
+// 656578887
+// Elements used for switching the color between the CSS color-1 to color-5.
+// References to the links are in index.html.
+// Style switcher is found at the top right of the page (brush and lightbulb icons).
+
 /*======================= Toggle Style Switcher ======================= */
 const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
 styleSwitcherToggle.addEventListener("click", () => {

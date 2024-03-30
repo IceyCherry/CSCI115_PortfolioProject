@@ -1,21 +1,22 @@
+/* Kelvin Hua */
+/* 656578887 */
 
 /* Genshin Stat Tracker */
 /* body{
   background-color: red;
 } */
-.main-container{
+.main-container {
   display: flex;
   justify-content: center;
-
   height: 60vh;
-  
 }
-.table-content{
+
+.table-content {
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 1em;
   min-width: 400px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -23,7 +24,7 @@
 }
 
 
-.table-content thead th{
+.table-content thead th {
   background-color: rgb(101, 140, 247);
   color: #ffffff;
   text-align: left;
@@ -32,25 +33,47 @@
 }
 
 .table-content th,
-.table-content td{
+.table-content td {
   /* background-color: red; */
   padding: 12px 15px;
 
 }
 
-.table-content tr{
+.table-content tr {
   border-bottom: 1px solid rgb(165, 193, 236);
   /* background-color: red; */
 }
-.table-content tr:nth-of-type(odd){
+
+.table-content tr:nth-of-type(odd) {
   background-color: #f3f3f3;
 }
 
-.table-content tr:last-of-type{
+.table-content tr:last-of-type {
   border-bottom: 2px solid rgb(101, 140, 247);
 }
 
-.table-content tr.active-row{
+.table-content tr.active-row {
   font-weight: bold;
   color: rgb(101, 140, 247);
+}
+
+.btn .Return {
+  display: flex;
+  justify-content: center;
+  margin-left: 402px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(209, 226, 252);
+  /* background-color: red; */
+  transition: 0.3s ease;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  color: rgb(101, 140, 247);
+  padding: 12px 8px;
+}
+.btn .Return:hover{
+  background-color: rgb(101, 140, 247);
+  transform: scale(1.1);
+  color: #ffffff;
 }
