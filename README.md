@@ -12,3 +12,4 @@
 # Services page: Hover effects and icons.
 # Portfolio page: Link to a table can be found by clicking on the first image. Hover effects again.
 # Contact: Flex arrangement and a non-functioning "Send Message" button.
+# Social Media buttons don't link to my personal ones but they do link to the default login pages for each corresponding site.
