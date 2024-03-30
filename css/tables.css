@@ -1,0 +1,56 @@
+
+/* Genshin Stat Tracker */
+/* body{
+  background-color: red;
+} */
+.main-container{
+  display: flex;
+  justify-content: center;
+
+  height: 60vh;
+  
+}
+.table-content{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1em;
+  min-width: 400px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+}
+
+
+.table-content thead th{
+  background-color: rgb(101, 140, 247);
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+.table-content th,
+.table-content td{
+  /* background-color: red; */
+  padding: 12px 15px;
+
+}
+
+.table-content tr{
+  border-bottom: 1px solid rgb(165, 193, 236);
+  /* background-color: red; */
+}
+.table-content tr:nth-of-type(odd){
+  background-color: #f3f3f3;
+}
+
+.table-content tr:last-of-type{
+  border-bottom: 2px solid rgb(101, 140, 247);
+}
+
+.table-content tr.active-row{
+  font-weight: bold;
+  color: rgb(101, 140, 247);
+}
